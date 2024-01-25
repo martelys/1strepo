@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Første repo test</title>
+    <style lang="css">
+      body {
+        background: #421e1e;
+      }
+
+      .linje2 {
+        color: rgb(186, 96, 32);
+      }
+
+      .linje3 {
+        color: white;
+      }
+
+      .vertical-center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+    </style>
   </head>
 
   <body>
-    <h1>Første repo</h1>
-    <p>min første repo</p>
+    <div
+      class="vertical-center"
+      style="height: 250px; left: 5%; overflow: hidden"
+    >
+      <img width="200" src="rekepus.jpg" />
+    </div>
+    <div
+      class="vertical-center"
+      style="height: 250px; right: 5%; overflow: hidden"
+    >
+      <img
+        style="position: relative; top: -50px"
+        width="200"
+        src="pjuskusitt.jpg"
+      />
+    </div>
+    <div class="vertical-center" style="text-align: center; width: 100%">
+      <h1>♥Pjusken♥</h1>
+      <p class="linje1">
+        <!-- Denne paragrafen blir svart -->
+        Pjusken er søt,<br />
+        Pjusken er rund,<br />
+        En katt som smiler,<br />
+        til alle rundt.<br />
+      </p>
+      <p class="linje2">
+        <!-- Denne paragrafen blir oransje/brun -->
+        Hun hopper og spretter,<br />
+        som en liten ball,<br />
+        En tykk liten katt,<br />
+        med sjarm overall.<br />
+      </p>
+      <p class="linje3">
+        <!-- Denne paragrafen blir hvit -->
+        I oransje, hvitt, og sort,<br />
+        og øyne så grønne,<br />
+        Pjusken er vakker,<br />
+        det må du vel skjønne?<br />
+      </p>
+    </div>
   </body>
 </html>
